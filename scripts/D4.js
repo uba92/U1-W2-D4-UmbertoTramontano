@@ -140,7 +140,7 @@ console.log(reverseResult)
 /* SCRIVI QUI LA TUA RISPOSTA */
 let string = 'this is a test'
 const upperFirst = function(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1,4) + ' ' + str.charAt(5).toUpperCase() + str.slice(6,7) + ' ' + str.charAt(8).toUpperCase() + str.slice(9,10) + str.charAt(10).toUpperCase() + str.slice(11)
+    return str.charAt(0).toUpperCase() + str.slice(1,4) + ' ' + str.charAt(5).toUpperCase() + str.slice(6,7) + str.slice(7,8) + str.charAt(8).toUpperCase() + str.slice(9,10) + str.charAt(10).toUpperCase() + str.slice(11)
 }
 
 console.log(upperFirst(string))
