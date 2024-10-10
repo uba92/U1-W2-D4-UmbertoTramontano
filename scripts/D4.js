@@ -164,5 +164,24 @@ console.log(cutString('vvediamo sef'))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const giveMeRandom = function(n) {
-
+    const randomArray = []
+    for(i=0; i<n; i++) {
+        randomArray.push(Math.floor(Math.random()*11))
+        console.log('Numero ', i+1, ': ' + randomArray[i])
+    }
+    return randomArray
 }
+
+console.log('I numeri estratti sono: ', giveMeRandom(3))
+
+// Variante per SuperEnalotto
+// const giveMeRandom = function(n) {
+//     const randomArray = []
+//     for(i=0; i<n; i++) {
+//         randomArray.push(Math.floor(Math.random()*91))
+//         console.log('Numero ', i+1, ': ' + randomArray[i])
+//     }
+//     return randomArray
+// }
+
+// console.log('I numeri estratti sono: ', giveMeRandom(6))
