@@ -165,7 +165,7 @@ console.log(cutString('vvediamo sef'))
 
 const giveMeRandom = function(n) {
     const randomArray = []
-    for(i=0; i<n; i++) {
+    for(let i=0; i<n; i++) {
         randomArray.push(Math.floor(Math.random()*11))
         console.log('Numero ', i+1, ': ' + randomArray[i])
     }
