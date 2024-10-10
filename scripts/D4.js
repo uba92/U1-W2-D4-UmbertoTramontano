@@ -86,11 +86,11 @@ const epify = function(str) {
     if(str.slice(0,7) === 'EPICODE' ) {
         return str
     } else {
-        return 'EPICODE ' + str
+        return 'EPICODE' + str
     }
 }
 
-let epifyResult = epify('EPICODE FULL STACK WEB DEVELOPERS')
+let epifyResult = epify('RS')
 console.log(epifyResult)
 
 /* ESERCIZIO 6 
@@ -122,9 +122,9 @@ if (check3and7Result === true) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const reverseString = function(str) {
-    let string = str.split('')//Con questo metodo creo un array 'string' i cui elementi sono i singoli caratteri della stringa inserita
-    let strReverse = string.reverse()//inverte la posizione degli elementi dell'array 'string' e li salva in un nuovo array 'strReverse'
-    let joinArrayReverse = strReverse.join('')//unisce in un unica parola i caratteri dell'array invertito 'strReverse' salvando la stringa ottenuta nella variabile 'joinArrayReverse'
+    const string = str.split('')//Con questo metodo creo un array 'string' i cui elementi sono i singoli caratteri della stringa inserita
+    const strReverse = string.reverse()//inverte la posizione degli elementi dell'array 'string' e li salva in un nuovo array 'strReverse'
+    const joinArrayReverse = strReverse.join('')//unisce in un unica parola i caratteri dell'array invertito 'strReverse' salvando la stringa ottenuta nella variabile 'joinArrayReverse'
     return joinArrayReverse
 }
 
