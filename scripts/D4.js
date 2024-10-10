@@ -1,3 +1,4 @@
+console.log('File Javascript collegato correttamente')
 /* ESERCIZIO 1
  Scrivi una funzione di nome "area", che riceve due parametri (l1, l2) e calcola l'area del rettangolo associato.
 */
